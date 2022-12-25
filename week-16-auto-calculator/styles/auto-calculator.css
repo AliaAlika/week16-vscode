@@ -1,0 +1,38 @@
+.container {
+  font-family: "Roboto", sans-serif;
+  margin-top: 8%;
+  margin-left: 30%;
+}
+
+select {
+  width: 18%;
+  font-size: medium;
+}
+
+.brand {
+  margin-bottom: 2%;
+}
+
+.model,
+.age,
+.fuel {
+  margin-bottom: 1%;
+}
+
+.button-calculate {
+  font-family: "Roboto", sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  background-color: #00c212;
+  color: white;
+  border: none;
+  border-radius: 5%;
+  padding: 1% 1%;
+  margin-top: 2%;
+  width: 10%;
+}
+
+.mileage {
+  margin-bottom: 2%;
+  font-size: medium;
+}

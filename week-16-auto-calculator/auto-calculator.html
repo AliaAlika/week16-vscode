@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week-16 Homework. Calculator for Automobile</title>
+    <link rel="stylesheet" href="/week-16-auto-calculator/styles/auto-calculator.css">
+</head>
+
+<body>
+    <main>
+        <div class="container"> 
+        <form name="input" action="" method="" class="car-calculator">
+            <h2> Калькулятор стоимости автомобиля</h2> 
+            <div class="brand">
+                <label>Марка:</label>
+            <select name="brands" class="brands" id="brand-select" onchange="selectModel()">
+                <option value="">Выберите марку</option>  
+                <option value="alfa-romeo">Alfa Romeo</option>  
+                <option value="daewoo">Daewoo</option>
+                <option value="volkswagen">Volkswagen</option>
+                </select>
+            </div>
+            <div class="model">   
+            <label>Модель:</label>    
+            <select name="model" class="model" id="model-select" onc="">
+                
+            </select>
+            </div>
+            <div class="age">
+            <label>Возраст автомобиля:</label>
+            <select name="age" class="age" id="age-select" onchange="">
+                <option value="less-than-3">Меньше 3 лет</option>  
+                <option value="3-5">От 3 до 5 лет</option>
+                <option value="5-7">От 5 до 7 лет</option>
+                <option value="more-than-7">Больше 7 лет</option>
+            </select>
+            </div>
+            <div class="fuel">
+            <label>Тип топлива:</label>    
+            <select name="fuel-type" class="fuel" id="fuel-select" onchange="">
+                <option value="petrol">Бензин (включая гибрид)</option>  
+                <option value="diesel-fuel">Дизельное топливо</option>
+            </select>
+            </div>
+                             
+            <input type="text" name="mileage" placeholder="Пробег, км" class="mileage" onclick="">
+            
+            <div class="recipient">
+            Получатель:
+            <input type="radio" name="recipient" value="individual" class="" >
+            <label>Физическое лицо</label>
+            <input type="radio" name="recipient" value="legal-entity" class="" >
+            <label>Юридическое лицо</label>
+            </div>
+            
+            
+            <button class="button-calculate" onClick="">Рассчитать</button>  
+            
+            <!---<input type="submit" value="Сохранить" class="">-->
+
+        </form> 
+        </div>
+    </main>
+
+    
+    <script src="/week-16-auto-calculator/auto-calculator.js">   
+    </script>
+</body>
+</html>
